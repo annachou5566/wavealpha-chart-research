@@ -1,0 +1,128 @@
+{
+  "linux": {
+    "asar_sha256": "0a79f4329af3a67b90ace0c879e8f8835ab8785398facb31819cbdfe90a48193",
+    "asar_bytes": 21104210,
+    "files": 171,
+    "javascript_files": 61,
+    "source_maps": 0,
+    "unpacked": [
+      {
+        "path": "build/Release/classic_level.node",
+        "declared_size": 605368,
+        "actual_size": 605368,
+        "sha256": "1d737f1bb0f448b1793312ac72fa0062be47c7412fdab42e7117c6c0d312cd09",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      },
+      {
+        "path": "keytar.node",
+        "declared_size": 93400,
+        "actual_size": 93400,
+        "sha256": "a43288ca3d19a66c3446eac1f0399ae38a984c7b128fc5ba99cf3e47f70b5991",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      },
+      {
+        "path": "native/tvdbridge.node",
+        "declared_size": 970048,
+        "actual_size": 970048,
+        "sha256": "948257b6ca1f660c3777bd39b4c53371cc0384a3d0e33bcd404faaacf422fa9a",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      }
+    ]
+  },
+  "windows": {
+    "asar_sha256": "a70a18bfd8f1db8d113993709d8294344545a29b3ccf7f7c3436667907023906",
+    "asar_bytes": 38119804,
+    "files": 237,
+    "javascript_files": 63,
+    "source_maps": 63,
+    "unpacked": [
+      {
+        "path": "build/Release/classic_level.node",
+        "declared_size": 542208,
+        "actual_size": 542208,
+        "sha256": "19dcd8045f5993b646b6dbdccaea92ac756ba5bdad247de8ae341c8acd2ecdaf",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      },
+      {
+        "path": "keytar.node",
+        "declared_size": 163840,
+        "actual_size": 163840,
+        "sha256": "03d805b5e2ef780ba1ba7eb660e4cf9f82bf736ead8b147f005da02e87610ace",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      },
+      {
+        "path": "native/tvdbridge.node",
+        "declared_size": 804864,
+        "actual_size": 804864,
+        "sha256": "d7f75cc9c0f87f1918e4263e4cd037f704465371fe60cd606eee0855d87cbc41",
+        "integrity_valid": true,
+        "block_integrity_valid": true
+      }
+    ]
+  },
+  "macos": {
+    "asar_sha256": "d85cda843523e29e83ba5ecc5eb5a660761c813d66386a387719504c79c6ec50",
+    "asar_bytes": 21104502,
+    "files": 172,
+    "javascript_files": 61,
+    "source_maps": 0,
+    "unpacked": [
+      {
+        "path": "build/Release/classic_level.node",
+        "declared_size": 1019760,
+        "actual_size": 1073008,
+        "sha256": "435884f49d80aedb52c49e178c66f229da4c3cbd83168d4787ae365bd7d0deaa",
+        "integrity_valid": false,
+        "block_integrity_valid": false
+      },
+      {
+        "path": "build/notificationstate.node",
+        "declared_size": 159896,
+        "actual_size": 226864,
+        "sha256": "a4f7bc7a175f5a3389312ccd5b68d54cc89cc509a544f23ee34a71e2c1adb164",
+        "integrity_valid": false,
+        "block_integrity_valid": false
+      },
+      {
+        "path": "keytar.node",
+        "declared_size": 196960,
+        "actual_size": 231904,
+        "sha256": "108527e86eb82c91ba8c12e235d988bd0d4c97b4e2848de030c44fa9f7419f72",
+        "integrity_valid": false,
+        "block_integrity_valid": false
+      },
+      {
+        "path": "native/tvdbridge.node",
+        "declared_size": 443656,
+        "actual_size": 492928,
+        "sha256": "40bfd1f9d29a532e7e5a329d013a590b4c30443764930b6be74d812e93e0aff1",
+        "integrity_valid": false,
+        "block_integrity_valid": false
+      }
+    ]
+  },
+  "cross_platform": {
+    "common_paths": 166,
+    "identical_all_platforms": 88,
+    "linux_macos_identical_js": 60
+  },
+  "static_parser": {
+    "parsed_source_entries": 790,
+    "unique_source_paths": 455,
+    "parse_errors": 0,
+    "relative_edges": 3141,
+    "resolved_edges": 2150,
+    "unresolved_edges": 991
+  },
+  "source_maps": {
+    "map_files": 63,
+    "source_entries": 3323,
+    "entries_with_content": 3323,
+    "main_map_source_entries": 1371
+  }
+}

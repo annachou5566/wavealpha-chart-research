@@ -1,0 +1,22 @@
+[
+  {
+    "file": "TradingView.dmg",
+    "bytes": 226974323,
+    "sha256": "cf8cd66b5bc7f3755e1d77c31e068ed7b40fce17a76df9b4086ebff04fe85e32"
+  },
+  {
+    "file": "TradingView.msix",
+    "bytes": 168047410,
+    "sha256": "fb9ac708c7dd4e82e563a75f678b79ddba6baf6b92cda7552b375ddad50ef84e"
+  },
+  {
+    "file": "Văn bản đã dán (1)(2).txt",
+    "bytes": 19678,
+    "sha256": "8103721f88ffeab9687a493fc193b37c6723525b1d6b71a59766e7da42727514"
+  },
+  {
+    "file": "tradingview_amd64.deb",
+    "bytes": 133040714,
+    "sha256": "ec381f4239db177e1f3d9bed151a635c4ec56b5c3780ebd1b18a63657806c868"
+  }
+]

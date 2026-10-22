@@ -1,0 +1,43 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> wavealpha-chart-research@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ guest actions show login without invoking the mutation (1.256328ms)
+✔ concurrent guest drawing and indicator clicks share one login popup (0.374759ms)
+✔ login completion does not replay an obsolete chart action (0.202304ms)
+✔ signed in but unreconciled private storage remains blocked (0.150577ms)
+✔ action fence rejects an account switch during async work (0.207341ms)
+✔ drawing edit, last-item deletion, undo and redo preserve the empty document (1.322208ms)
+✔ drawing snapshot and input references cannot mutate committed state (0.280972ms)
+✔ invalid edits fail atomically and preserve valid drawings (0.557669ms)
+✔ owner mismatch prevents importing another account document (0.334343ms)
+✔ unknown schema and duplicate drawing identifiers are rejected (0.358499ms)
+✔ new edit after undo discards the redo branch (0.315655ms)
+✔ no-op drawing deletion creates no undo history (0.154302ms)
+✔ client stays dirty until matching revision and operation ACK (1.448668ms)
+✔ uncertain network failure reuses exactly the same operation on retry (0.456196ms)
+✔ ACK for another operation never marks local changes saved (0.145669ms)
+✔ wrong ACK revision never advances local revision (0.120381ms)
+✔ concurrent flushes have a single in-flight sender (0.136555ms)
+✔ adapter reentrancy cannot start a duplicate writer (0.134802ms)
+✔ edits during an in-flight save are drained with the next revision (0.199149ms)
+✔ account switch makes an old asynchronous ACK inert (0.156576ms)
+✔ disconnect makes old errors inert (0.290057ms)
+✔ revision conflict freezes retries until explicit reconcile (0.153731ms)
+✔ save coordinator does not send unchanged or disconnected state (0.106571ms)
+✔ geometry roundtrip preserves anchors and inverted price axis (0.219289ms)
+✔ degenerate viewport is rejected and zero-length segments are safe (0.130597ms)
+✔ magnet snapping uses a screen-distance threshold (0.250897ms)
+✔ SMA warmup and rolling averages match explicit numeric expectations (0.169885ms)
+✔ EMA seeds with SMA then uses standard recursive smoothing (0.16623ms)
+✔ Wilder RSI has explicit warmup, flat, gain-only and loss-only behavior (0.15943ms)
+✔ indicators reject missing/non-finite data instead of fabricating zero (0.201162ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97.523225

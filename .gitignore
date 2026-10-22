@@ -1,0 +1,11 @@
+node_modules/
+inputs/
+extracted/
+raw/
+*.asar
+*.node
+*.dmg
+*.msix
+*.deb
+*.map
+.env*
