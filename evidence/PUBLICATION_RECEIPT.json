@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "timezone": "Asia/Saigon",
+  "repository": "annachou5566/wavealpha-chart-research",
+  "visibility": "public",
+  "published_source_commit": "3d4a08f9acb194a712ce69f5cca12833c405f820",
+  "published_source_tree": "44b21a963eab32534642425529def193e56806f3",
+  "initial_readme_commit": "5ec532782c9e1e585757fe1eecee1cd1ffb3b718",
+  "verification": {
+    "exact_main_head": "PASS",
+    "recursive_tree_truncated": false,
+    "blob_parity": "27/27",
+    "files": 27,
+    "workflow_files": 0,
+    "all_trigger_actions_runs": 0,
+    "reference_contract_tests": "30/30 PASS reused after byte identity check",
+    "delivery_checks": "PASS"
+  },
+  "scope": {
+    "independent_source_files": 5,
+    "ui": false,
+    "durable_storage": false,
+    "server": false,
+    "wavealpha_product_modified": false,
+    "vendor_payloads_included": false,
+    "private_project_operational_metadata_included": false,
+    "private_local_git_history_uploaded": false
+  },
+  "source_snapshot_files": [
+    {
+      "path": ".gitignore",
+      "git_blob": "e2d95e1eea2b6d9b988e8bd0112911ea55033af6"
+    },
+    {
+      "path": "AGENTS.md",
+      "git_blob": "02ec70c0914d00df2ede0931eae365d58fa7b2cb"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "8778370f1fd2374659e2566a6531f7e0b067b2e1"
+    },
+    {
+      "path": "docs/FULL_PRODUCT_SCOPE.md",
+      "git_blob": "999606911f4699b0e5ad005efe804ce1272d270c"
+    },
+    {
+      "path": "docs/REVERSE_ENGINEERING_EVIDENCE_INDEX.md",
+      "git_blob": "ef389a756b23237fb4ac0aa44389140cb6679d3f"
+    },
+    {
+      "path": "docs/TRADINGVIEW_ARCHITECTURE_FINDINGS.md",
+      "git_blob": "5e4c109b40ca098a5c7f0ab6994b94374a6dfec7"
+    },
+    {
+      "path": "docs/TRADINGVIEW_FEATURE_GAP_ANALYSIS.md",
+      "git_blob": "443335f3f595d3268e87021b9c0c1bb4552151aa"
+    },
+    {
+      "path": "docs/TRADINGVIEW_REVERSE_ENGINEERING_REPORT.md",
+      "git_blob": "5ff685192fa1ee9f3a37ad3b48d083728e9ee55f"
+    },
+    {
+      "path": "docs/WAVEALPHA_CHART_IMPROVEMENT_PLAN.md",
+      "git_blob": "1ad673c0e5819ca140d4e5ebe7fab2ee54c4ba7f"
+    },
+    {
+      "path": "docs/WAVEALPHA_IMPLEMENTATION_CHECKPOINT.md",
+      "git_blob": "36903a500fead4860fcfdb93bbf59a662f3500ff"
+    },
+    {
+      "path": "evidence/findings.json",
+      "git_blob": "a32a3286633db1f2bde49f05d8575eab435b035a"
+    },
+    {
+      "path": "evidence/input-hashes.json",
+      "git_blob": "d1f43fcd96282fa901a0e3160224072b55568bff"
+    },
+    {
+      "path": "evidence/linux-asar-inventory.json",
+      "git_blob": "e3c14c01c5d666f48963222b29d70bf395f84856"
+    },
+    {
+      "path": "evidence/macos-asar-inventory.json",
+      "git_blob": "695aeac8f13b718f1c4a29c281b3d77ac91e6cd7"
+    },
+    {
+      "path": "evidence/module-graph.json",
+      "git_blob": "b5620811719840c0b59574d2d70e49c589fb60ab"
+    },
+    {
+      "path": "evidence/package-summary.json",
+      "git_blob": "aa0cbc7bf37b1f789b55f948929b0858914437c8"
+    },
+    {
+      "path": "evidence/reference-contract-tests.txt",
+      "git_blob": "eaaaf37ed01ac2715d5e8e29fa8bacf8ac4f972d"
+    },
+    {
+      "path": "evidence/windows-asar-inventory.json",
+      "git_blob": "dee78bd02279e82706e6d438cb8945b77b7bd529"
+    },
+    {
+      "path": "package.json",
+      "git_blob": "8c17a1fecda673629b85082f3ddd73980554ed58"
+    },
+    {
+      "path": "src/action-gate.mjs",
+      "git_blob": "2032f252cfaa12eda9c8e35a1ce0fb762c6cf377"
+    },
+    {
+      "path": "src/drawing-document.mjs",
+      "git_blob": "ed178ff2bc47f21472aa8811d9d7079d4801a6ec"
+    },
+    {
+      "path": "src/geometry.mjs",
+      "git_blob": "d4c041db008c245ec8caecc76b1d17ad3b85c3a6"
+    },
+    {
+      "path": "src/indicators.mjs",
+      "git_blob": "bc6ae8c8da6782a54b70ecca09d786a3de4da099"
+    },
+    {
+      "path": "src/save-coordinator.mjs",
+      "git_blob": "a15e6fbf297f3a7bee4003ea50a09491d619bbd2"
+    },
+    {
+      "path": "tests/contracts.test.mjs",
+      "git_blob": "ec80a9fc1cac9bbe20895f502d5ef633fc419f73"
+    },
+    {
+      "path": "tools/check-delivery.mjs",
+      "git_blob": "9219adb6f793bd50077c3a34d03bdd9af2637dd5"
+    },
+    {
+      "path": "tools/inspect_asar.py",
+      "git_blob": "265a4e631506afecae4d283d9552255f5ef881d3"
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Checkpoint công khai — nghiên cứu chart và source nền
 
+## LATEST — source đã công bố và postcheck PASS
+
+Source snapshot **3d4a08f9acb194a712ce69f5cca12833c405f820** đã được đưa lên `main` của repo nghiên cứu này qua GitHub plugin. Tree **44b21a963eab32534642425529def193e56806f3**; independent readback xác nhận exact branch HEAD, **27/27 Git blobs khớp**, không có workflow CI và **0 Actions run cho mọi trigger** tại source commit đó. [Publication receipt](../evidence/PUBLICATION_RECEIPT.json) lưu phạm vi và file identities đã kiểm.
+
+Các commit tài liệu sau source snapshot này chỉ ghi checkpoint/receipt; không đổi năm module hoặc tests. Khi tiếp tục, fresh-read HEAD và phân biệt source snapshot với docs-only descendants. Không cần tạo repo, đăng nhập browser, trích xuất lại installer hoặc upload lại gói ban đầu.
+
+**Next:** Release 1 vertical slice theo roadmap. Chưa có renderer/UI/durable store/server, chưa hoàn thành toàn phần mềm. Không có thay đổi Product/Production của dự án khác.
+
 Ngày: **22/10/2026, Asia/Saigon**. Repository: https://github.com/annachou5566/wavealpha-chart-research. Visibility được kiểm tra: **Public**. Owner đã tạo repository và gửi URL; GitHub plugin có quyền ghi. Không cần browser login cho việc nhập source vào repo hiện hữu.
 
 ## Mục tiêu đã chốt
@@ -56,8 +64,8 @@ READ FIRST: `AGENTS.md`, `README.md`, tài liệu này và [FULL_PRODUCT_SCOPE](
 2. Làm Release 1 end-to-end: synthetic data có nhãn → Canvas renderer → viewport/crosshair → drawing gesture → command/history → IndexedDB journal → reload phục hồi; guest catalog có action gate.
 3. Chỉ sau local/browser/mobile/recovery qualification mới mở cloud/auth/desktop scope. Hệ thống WaveAlpha đang hoạt động có quy định/source of truth riêng và không được thay đổi từ nhiệm vụ xuất bản này.
 
-STATUS: installer/static research và core contracts 30/30 PASS trong phạm vi; source Public được chuẩn bị để công bố; toàn phần mềm chưa hoàn thành.
+STATUS: source Public đã công bố và postcheck PASS tại source snapshot nêu trên; installer/static research và core contracts 30/30 PASS trong phạm vi; toàn phần mềm chưa hoàn thành.
 
 REMAINING RISK: chart/Pine/backend UNKNOWN; macOS integrity mismatch; chưa có UI/durable recovery/server/browser qualification.
 
-NEXT BEST ACTION: verify commit/ref/tree của gói công bố, sau đó vertical slice Release 1 độc lập; không deploy Production.
+NEXT BEST ACTION: fresh-read current research HEAD, rồi vertical slice Release 1 độc lập; không chạy lại công việc xuất bản đã PASS khi chưa có invalidator.

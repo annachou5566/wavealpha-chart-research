@@ -39,7 +39,7 @@ Ngày: 22/10/2026. Repository nghiên cứu có code và đặc tả công khai.
 | Bước | Output | Trạng thái |
 |---|---|---|
 | Installer research | Hash/inventory/source-map metadata/boundary evidence | Đã có trong phạm vi báo cáo |
-| Public repository import | Source mới, báo cáo và metadata không chứa nội bộ WaveAlpha | Gói công bố được chuẩn bị; kết quả upload xác minh bằng Git HEAD/tree |
+| Public repository import | Source mới, báo cáo và metadata không chứa nội bộ WaveAlpha | Đã công bố; source snapshot 3d4a08f, 27/27 blob parity và 0 Actions run |
 | Release 1 | Local UI → renderer → drawing gesture → durable document → reload | Chưa triển khai |
 | Release 2 | Indicator panes, multi-chart/layout/favorites/mobile | Chưa triển khai |
 | Release 3 | Auth/server CAS/recovery/multi-device | Chưa triển khai; không provision hạ tầng tự động |
