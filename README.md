@@ -49,3 +49,7 @@ Repository: https://github.com/annachou5566/wavealpha-chart-research. Chủ dự
 Bản source này được công bố bằng commit mới kế thừa commit README ban đầu của repo GitHub. Không đẩy lịch sử Git cục bộ của gói nghiên cứu đầy đủ, vì lịch sử đó chứa tài liệu nội bộ. Không có workflow CI, deploy hoặc thay đổi hệ thống WaveAlpha từ bản công bố này.
 
 Mã trong `src/`, `tests/` và công cụ tự viết là triển khai mới theo đặc tả hành vi chung. Bản phát hành này chưa gán giấy phép nguồn mở; chủ repository quyết định giấy phép trước khi chia sẻ ra ngoài.
+
+## Drawing Lab Release 1 — experimental branch
+
+A local-only, independently authored Canvas research demo with 19 drawing geometries is proposed on the drawing-lab development branch. See [the Drawing Lab guide](docs/DRAWING_LAB_RELEASE_1.md) and [demo entrypoint](demo/index.html). This is **not** a complete TradingView replacement; browser qualification, cloud persistence, and full tool parity remain open.
