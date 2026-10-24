@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WaveAlpha Drawing Lab</title><style>
+:root{font:14px system-ui,sans-serif;color-scheme:dark;background:#101820;color:#e7eef5}*{box-sizing:border-box}body{margin:0}
+header{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px;background:#162430;border-bottom:1px solid #395064}
+button,select,input{background:#273a4b;border:1px solid #526879;border-radius:5px;color:#eff7ff;padding:7px;cursor:pointer}button:hover,select:hover{border-color:#8ebbe9}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #e7b84b}
+label{display:flex;gap:5px;align-items:center}.shell{display:grid;grid-template-columns:210px minmax(0,1fr);height:calc(100dvh - 109px);min-height:360px}
+aside{overflow:auto;padding:10px;border-right:1px solid #395064}aside button{display:block;width:100%;text-align:left;margin:3px 0}
+aside button[aria-pressed=true]{background:#29648c}aside h3{font-size:12px;color:#9ebbd0;text-transform:uppercase;margin:17px 0 5px}
+main{min-height:0;min-width:0;position:relative}canvas{width:100%;height:100%;touch-action:none;display:block;cursor:crosshair}
+footer{min-height:47px;display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:8px 12px;color:#b9cddf;border-top:1px solid #395064}
+#status{color:#f1cf7d}small{opacity:.8}@media(max-width:650px){.shell{grid-template-columns:135px minmax(0,1fr);height:calc(100dvh - 155px)}aside button{font-size:12px}footer{font-size:12px}}
+</style></head><body>
+<header><strong>WaveAlpha · Drawing Lab</strong><small>Independent research · synthetic candles · local-only</small>
+<button id="undo" type="button">Undo</button><button id="redo" type="button">Redo</button>
+<button id="delete" type="button">Delete selected</button><button id="lock" type="button">Lock / unlock</button>
+<button id="hide" type="button">Hide / show all</button><button id="export" type="button">Export JSON</button>
+<label>Import <input id="import" type="file" accept="application/json,.json" style="width:135px"></label></header>
+<div class="shell"><aside id="tools"><button data-tool="select" aria-pressed="true">↖ Select / move</button></aside>
+<main><canvas id="chart" aria-label="Synthetic price chart with interactive drawings"></canvas></main></div>
+<footer><span id="status" role="status">Preparing local document…</span>
+<span id="help">Choose a tool; drag to draw two-point objects. For three-point objects, click 3 anchors.</span></footer>
+<script type="module" src="./app.mjs"></script></body></html>
